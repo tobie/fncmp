@@ -7,13 +7,13 @@ This lets you write very expressive code, combining simple functions into more c
 
 For example, instead of writing:
 
-```js
+``` javascript
 array.map(doStuff).map(moreStuff).map(yetMore);
 ```
 
 or the more performant, but uglier:
 
-```js
+``` javascript
 array.map(function(item) {
     item = doStuff(item);
     item = moreStuff(item);
@@ -24,7 +24,7 @@ array.map(function(item) {
 
 Just use function composition:
 
-```
+``` javascript
 var compose = require("fncmp");
 array.map(compose(yetMore, moreStuff, doStuff));
 // Notice how functions are composed from right to left.
