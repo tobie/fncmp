@@ -1,0 +1,24 @@
+{
+  "name": "fncmp",
+  "version": "0.1.0",
+  "description": "Just function composition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u tdd ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobie/fncmp"
+  },
+  "keywords": [
+    "function",
+    "fp",
+    "composition"
+  ],
+  "author": "Tobie Langel <tobie.langel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobie/fncmp/issues"
+  },
+  "homepage": "https://github.com/tobie/fncmp"
+}
